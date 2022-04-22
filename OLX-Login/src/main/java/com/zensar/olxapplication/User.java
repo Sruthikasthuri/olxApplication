@@ -9,12 +9,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class User {
       
-	private long id;
+	private int id;
 	private String firstName;
 	private String lastName;
 	private String userName;
 	private String password;
 	private String email;
-	private double phone;
-	
+	private String phone;
+
 }
